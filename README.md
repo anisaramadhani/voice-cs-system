@@ -1,6 +1,6 @@
 # Multilingual Code-Switching Voice Chatbot – Whisper, Gemma LLM, gTTS Integration
 
-Proyek ini merupakan aplikasi chatbot speech-to-speech multilingual yang mampu menangani input suara dengan code-switching antara Bahasa Indonesia, Inggris, dan Arab. Sistem akan mentranskripsi suara (Speech-to-Text), memahami konteks menggunakan Large Language Model (Gemma via Google GenAI SDK), lalu menghasilkan respons suara kembali (Text-to-Speech).
+Proyek ini merupakan aplikasi chatbot speech-to-speech multilingual yang mampu menangani input suara dengan code-switching antara Bahasa Indonesia, Inggris, dan Arab. Sistem akan mentranskripsi suara (Speech-to-Text), memahami konteks menggunakan Large Language Model (Gemma via Google GenAI SDK), lalu menghasilkan respons suara (Text-to-Speech).
 
 ## 📌 Fitur Utama
 - 🎙️ Speech-to-Text (STT) menggunakan OpenAI Whisper.
@@ -11,7 +11,7 @@ Proyek ini merupakan aplikasi chatbot speech-to-speech multilingual yang mampu m
 
 ## 🗂️ Struktur Proyek
 ```
-copy-voice-cs-system/
+voice-cs-system/
 │
 ├── app/
 │   ├── main.py            # Endpoint utama FastAPI

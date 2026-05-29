@@ -1,0 +1,32 @@
+.env
+*.env
+.env.*
+
+env/
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Model files
+*.bin
+*.pth
+*.onnx
+*.pt
+
+data/corpus/audio/
+
+data/temp/
+
+# Log
+log/*.log
+log/*.json
+
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db

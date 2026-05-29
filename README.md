@@ -4,7 +4,7 @@ Proyek ini merupakan aplikasi chatbot speech-to-speech multilingual yang mampu m
 
 ## 📌 Fitur Utama
 - 🎙️ Speech-to-Text (STT) menggunakan OpenAI Whisper.
-- 🧠 LLM Integration menggunakan Google Gemma 4 26B (via GenAI SDK) untuk respons kontekstual multilingual.
+- 🧠 LLM Integration menggunakan Google Gemma 4 26B untuk respons kontekstual multilingual.
 - 🔊 Text-to-Speech (TTS) menggunakan Google Text-to-Speech (gTTS).
 - 🌐 Antarmuka pengguna interaktif berbasis Gradio dan backend FastAPI.
 - 🧪 Script analisis otomatis dataset dan evaluasi hasil ke CSV.
@@ -25,7 +25,7 @@ copy-voice-cs-system/
 │   └── app.py             # Frontend dengan Gradio
 │
 ├── data/
-│   ├── corpus/            # Dataset audio & transcript
+│   ├── corpus/            # Dataset audio
 │   ├── outputs/           # Output audio hasil sistem
 │   └── temp/              # File sementara
 │
@@ -45,7 +45,7 @@ copy-voice-cs-system/
 - Script analisis otomatis dapat digunakan untuk evaluasi batch dataset.
 
 ## 👨‍💻 Dibuat Untuk
-Proyek UAS praktikum *Pemrosesan Bahasa Alami* — Semester Genap 2025/2026.
+Proyek UAS praktikum *Pemrosesan Bahasa Alami*
 
 ---
 
